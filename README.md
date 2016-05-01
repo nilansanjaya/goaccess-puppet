@@ -4,11 +4,11 @@ Simple module to add goaccess.io to your deployment through Puppet.
 Note: I've tried to make things minimal as possible. if you have any suggestions to more proper methods, feel free to contribute.
 
 ## Usage
-copy the folder to your puppet module directory and run the module installation.
+If you prefer installing through forge, run the below commands.
 
-Example when using puppet with vagrant.
-
-Assuming you have already done necessary configurations to Vagrantfile to include puppet support.
+```
+puppet module install nilansanjaya-goaccess_puppet
+```
 
 Include the below to your main pp file to run the goaccess-puppet class.
 ```
