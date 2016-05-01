@@ -10,6 +10,8 @@ If you prefer installing through forge, run the below commands.
 puppet module install nilansanjaya-goaccess_puppet
 ```
 
+If you are installing manually or through other modules, download and copy the goaccess-puppet folder to your module folder.
+
 Include the below to your main pp file to run the goaccess-puppet class.
 ```
 class { goaccess-puppet:
