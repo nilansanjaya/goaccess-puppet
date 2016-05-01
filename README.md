@@ -22,3 +22,8 @@ class { goaccess-puppet:
 ## Contributors
 
 If anyone is interested in spending some time to make this better, feel free to contribute.
+
+
+##To Do
+
+* Increase Forge Quality Score
