@@ -1,14 +1,6 @@
 class goaccess-puppet($version) {
 
-  package{'curl':
-    ensure => present,
-  }
-
-  package{'tar':
-    ensure => present,
-  }
-
-  package{'GeoIP-devel':
+  package { ['curl', 'tar', 'GeoIP-devel']:
     ensure => present,
   }
 
